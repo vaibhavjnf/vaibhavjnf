@@ -1,34 +1,40 @@
 # Vaibhav Sharma
 
-Building tools at the intersection of AI, hardware, and real-world systems — from 3D architectural editors to voice-first commerce platforms.
+Building the spatial internet — persistent 3D world models from wearable LiDAR, queryable by any AI.
 
 ---
 
-### Active Projects
+### Featured: EyeTile / WorldMesh
+
+**The data layer underneath AR.** Wearable LiDAR devices (EyeTile) scan the physical world and stream point clouds into WorldMesh — a distributed spatial database any AI model can query via MCP.
+
+| Component | What it does |
+|---|---|
+| [worldmesh](https://github.com/vaibhavjnf/worldmesh) | MCP server — SQLite + R-tree spatial index, 6 spatial tools |
+| [lensagent](https://github.com/vaibhavjnf/lensagent) | Gemini Live voice agent — real-time spatial narration |
+| [lensui](https://github.com/vaibhavjnf/lensui) | Three.js 3D point cloud visualizer |
+
+`VL53L8CX LiDAR` `nRF5340` `MCP` `Gemini Live` `SQLite R-tree` `Three.js`
+
+---
+
+### Other Active Projects
 
 | Project | What it is |
 |---|---|
-| [editor](https://github.com/vaibhavjnf/editor) | 3D architectural building editor — React Three Fiber, Next.js, Turborepo |
-| [claw-vnc](https://github.com/vaibhavjnf/claw-vnc) | Browser-based remote desktop with mic/camera/audio relay. iOS PWA. |
-| [claw-vnc-windows](https://github.com/vaibhavjnf/claw-vnc-windows) | Hardened Windows fork of claw-vnc |
-| [kai-shop-assistant](https://github.com/vaibhavjnf/kai-shop-assistant) | AI voice ordering assistant for a snack shop (Jodhpur Namkeen) |
-| [vphone-cli](https://github.com/vaibhavjnf/vphone-cli) | CLI tool for voice/phone workflows |
+| [editor](https://github.com/vaibhavjnf/editor) | 3D architectural building editor — React Three Fiber, Next.js |
+| [claw-vnc](https://github.com/vaibhavjnf/claw-vnc) | Browser-based remote desktop with mic/camera/audio relay |
+| [kai-shop-assistant](https://github.com/vaibhavjnf/kai-shop-assistant) | AI voice ordering for Jodhpur Namkeen snack shop |
 | [clawdbot](https://github.com/vaibhavjnf/clawdbot) | Personal AI assistant — any OS, any platform |
 
 ---
 
 ### Stack
 
-`TypeScript` `React` `Next.js` `Three.js / R3F` `Swift` `Python` `Bun` `Turborepo`
+`TypeScript` `React` `Next.js` `Three.js / R3F` `Swift` `Python` `Bun`
 
-AI-native development: Claude Code, MCP servers, agent workflows
-
----
-
-### Background
-
-Based in Kota, India. Building in public. Interested in AI tooling, spatial computing, and systems that work offline-first in real-world environments.
+AI-native dev: Claude Code · MCP servers · Gemini Live · agent workflows
 
 ---
 
-<sub>Most interesting stuff is in private repos or moving fast. Check commit history for context.</sub>
+Based in Kota, India. Building in public. Spatial computing + AI tooling + systems that work in the real world.
