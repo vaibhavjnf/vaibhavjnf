@@ -1,6 +1,25 @@
 # Vaibhav Sharma
 
-Building the spatial internet — persistent 3D world models from wearable LiDAR, queryable by any AI.
+**Security Researcher & Builder — Kota, India**
+
+I build software, and I look for the places it breaks. Independent security research from my own lab: source-level review, local verification, coordinated disclosure — the vendor hears first and publishes first.
+
+**Full profile / "Why Me":** https://vaibhavjnf.github.io · **Security & credits:** https://vaibhavjnf.github.io/security.html
+
+---
+
+### Current focus
+- 🔐 Open-source security research — Android / scrcpy tooling ecosystem and web app auth & session-state issues
+- 📱 **Android Bridge** — consent-first, owner-hosted device bridge (scrcpy + Tailscale-bound APK, scoped & audit-logged agent access)
+- 🧪 Own research lab (RL) — most leads turn out clean; logging them anyway is the discipline
+
+### Security research
+Credits are listed only when a vendor publishes them — evidence-linked, on my site:
+**[vaibhavjnf.github.io/security.html](https://vaibhavjnf.github.io/security.html)**
+
+| Date | Vendor / Project | Type | Credit |
+|---|---|---|---|
+| — | *First disclosures in progress* | — | — |
 
 ---
 
@@ -31,10 +50,21 @@ Building the spatial internet — persistent 3D world models from wearable LiDAR
 
 ### Stack
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+
 `TypeScript` `React` `Next.js` `Three.js / R3F` `Swift` `Python` `Bun`
 
 AI-native dev: Claude Code · MCP servers · Gemini Live · agent workflows
 
 ---
 
-Based in Kota, India. Building in public. Spatial computing + AI tooling + systems that work in the real world.
+### Contact
+GitHub [@vaibhavjnf](https://github.com/vaibhavjnf) · X [@heyavaibh](https://x.com/heyavaibh) · Blog [bit.ly/hackdomland](https://bit.ly/hackdomland)
+
+Based in Kota, India. Building in public since 2015 (~114 repos: AI tools, 3D editors, voice-first systems). Spatial computing + AI tooling + systems that work in the real world.
+
+<sub>Also: third-generation owner-operator of Jodhpur Namkeen, Kota (since 1971) — I run real systems, not just demos.</sub>
