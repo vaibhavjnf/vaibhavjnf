@@ -2,69 +2,53 @@
 
 **Security Researcher & Builder — Kota, India**
 
-I build software, and I look for the places it breaks. Independent security research from my own lab: source-level review, local verification, coordinated disclosure — the vendor hears first and publishes first.
+I build software, and I look for the places it breaks.
 
-**Full profile / "Why Me":** https://vaibhavjnf.github.io · **Security & credits:** https://vaibhavjnf.github.io/security.html
+On GitHub since 2015 · 60+ public repositories · [Website](https://vaibhavjnf.github.io) · [Security & credits](https://vaibhavjnf.github.io/security.html)
 
 ---
 
-### Current focus
-- 🔐 Open-source security research — Android / scrcpy tooling ecosystem and web app auth & session-state issues
-- 📱 **Android Bridge** — consent-first, owner-hosted device bridge (scrcpy + Tailscale-bound APK, scoped & audit-logged agent access)
-- 🧪 Own research lab (RL) — most leads turn out clean; logging them anyway is the discipline
+## Vision
 
-### Security research
-Credits are listed only when a vendor publishes them — evidence-linked, on my site:
-**[vaibhavjnf.github.io/security.html](https://vaibhavjnf.github.io/security.html)**
+Become a noticeable name in security — a name vendors and researchers know — earned through published credits, not claimed. Credits first, noise later. And build systems that have to earn trust: a tool that can see your phone screen must earn that access. I run a real business on real systems, so I know what a broken system costs.
+
+## Approach
+
+1. **Source-level review of published code** — AI as a co-pilot for mapping attack surface.
+2. **Verify everything locally** in my own lab — never on systems outside a program's published scope.
+3. **Coordinated disclosure, every time** — the vendor hears first and publishes first, and the fix patch ships with the report.
+4. **Most leads turn out clean** — working through them anyway is the discipline; the clean ones get logged too.
+
+Volume, patience, evidence.
+
+## Work
+
+Only what a visitor can verify:
+
+- **[Security evidence page](https://vaibhavjnf.github.io/security.html)** — every credit, listed with a link to the vendor's own page. Current state, honestly: *first disclosures in progress.*
+- **Android Bridge** *(current build — repo not public yet; full description on my [website](https://vaibhavjnf.github.io))* — a consent-first device bridge: the owner hosts a dashboard on their own PC, the phone binds only to that PC's Tailscale identity, and an AI agent can request screen (scrcpy) or SMS only through scoped, audit-logged, owner-approved access. The security model was designed first — this is what "systems that earn trust" means in practice.
+- **[telegram-india-unblock](https://github.com/vaibhavjnf/telegram-india-unblock)** — tooling for getting Telegram working where access is restricted in India. My most-starred repo (12★): people actually use what I ship.
+- **[claw-vnc](https://github.com/vaibhavjnf/claw-vnc)** — browser-based remote desktop with mic, camera, and audio relay. Remote access is a trust-sensitive surface; I build it in the open.
+- **[claw-vnc-windows](https://github.com/vaibhavjnf/claw-vnc-windows)** — the Windows edition of claw-vnc.
+- **[abyss](https://github.com/vaibhavjnf/abyss)** — a terminal agent harness written in Rust: a Claude-Code-style CLI agent for Linux, macOS, and Windows that works with any model. My current Rust build, updated 23 Nov 2026.
+- **[vaibhavjnf.github.io](https://github.com/vaibhavjnf/vaibhavjnf.github.io)** — this profile's home on the web: a plain static site, no build step.
+
+## Security & credits
+
+Credits are listed only when a vendor publishes them — evidence-linked, never claimed early:
 
 | Date | Vendor / Project | Type | Credit |
 |---|---|---|---|
 | — | *First disclosures in progress* | — | — |
 
----
+Ledger: **[vaibhavjnf.github.io/security.html](https://vaibhavjnf.github.io/security.html)**
 
-### Featured: EyeTile / WorldMesh
+## Background
 
-**The data layer underneath AR.** Wearable LiDAR devices (EyeTile) scan the physical world and stream point clouds into WorldMesh — a distributed spatial database any AI model can query via MCP.
+Building since 2015 under **Vibin** — AI tools, 3D editors, and voice-first systems; earlier builder work includes EyeTile / WorldMesh, a LiDAR-to-spatial-database stack for AR. I'm also the third-generation owner-operator of **Jodhpur Namkeen**, my family's food business in Kota, running since 1971 — real systems, real downtime costs. That grounding is where the security instincts come from.
 
-| Component | What it does |
-|---|---|
-| [worldmesh](https://github.com/vaibhavjnf/worldmesh) | MCP server — SQLite + R-tree spatial index, 6 spatial tools |
-| [lensagent](https://github.com/vaibhavjnf/lensagent) | Gemini Live voice agent — real-time spatial narration |
-| [lensui](https://github.com/vaibhavjnf/lensui) | Three.js 3D point cloud visualizer |
+## Contact
 
-`VL53L8CX LiDAR` `nRF5340` `MCP` `Gemini Live` `SQLite R-tree` `Three.js`
+GitHub [@vaibhavjnf](https://github.com/vaibhavjnf) · X [@heyavaibh](https://x.com/heyavaibh) · Blog [bit.ly/hackdomland](https://bit.ly/hackdomland) · Website [vaibhavjnf.github.io](https://vaibhavjnf.github.io)
 
----
-
-### Other Active Projects
-
-| Project | What it is |
-|---|---|
-| [editor](https://github.com/vaibhavjnf/editor) | 3D architectural building editor — React Three Fiber, Next.js |
-| [claw-vnc](https://github.com/vaibhavjnf/claw-vnc) | Browser-based remote desktop with mic/camera/audio relay |
-| [kai-shop-assistant](https://github.com/vaibhavjnf/kai-shop-assistant) | AI voice ordering for Jodhpur Namkeen snack shop |
-| [clawdbot](https://github.com/vaibhavjnf/clawdbot) | Personal AI assistant — any OS, any platform |
-
----
-
-### Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-
-`TypeScript` `React` `Next.js` `Three.js / R3F` `Swift` `Python` `Bun`
-
-AI-native dev: Claude Code · MCP servers · Gemini Live · agent workflows
-
----
-
-### Contact
-GitHub [@vaibhavjnf](https://github.com/vaibhavjnf) · X [@heyavaibh](https://x.com/heyavaibh) · Blog [bit.ly/hackdomland](https://bit.ly/hackdomland)
-
-Based in Kota, India. Building in public since 2015 (~114 repos: AI tools, 3D editors, voice-first systems). Spatial computing + AI tooling + systems that work in the real world.
-
-<sub>Also: third-generation owner-operator of Jodhpur Namkeen, Kota (since 1971) — I run real systems, not just demos.</sub>
+Based in Kota, India. Open to security research collaboration and conversations with other researchers and maintainers.
